@@ -2,7 +2,9 @@
   "name": "reactive-state",
   "version": "0.0.0",
   "description": "Simple wrapper to easily manage multiple useStates in a component.",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.cjs.js --format=cjs",
