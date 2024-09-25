@@ -1,0 +1,28 @@
+{
+  "name": "reactive-state",
+  "version": "0.0.0",
+  "description": "Simple wrapper to easily manage multiple useStates in a component.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.cjs.js --format=cjs",
+    "build:esm": "esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.esm.js --format=esm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "npm-package"
+  ],
+  "author": "anwitars",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.2 <19"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "@types/react": "^17.0.38",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.2"
+  }
+}
