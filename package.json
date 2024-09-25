@@ -1,5 +1,5 @@
 {
-  "name": "reactive-state",
+  "name": "@anwitars/reactive-state",
   "version": "0.0.0",
   "description": "Simple wrapper to easily manage multiple useStates in a component.",
   "main": "dist/index.cjs.js",
@@ -16,6 +16,10 @@
     "typescript",
     "npm-package"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anwitars/react-reactive-state"
+  },
   "author": "anwitars",
   "license": "MIT",
   "peerDependencies": {
