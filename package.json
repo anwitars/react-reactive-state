@@ -1,6 +1,6 @@
 {
   "name": "@anwitars/reactive-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple wrapper to easily manage multiple useStates in a component.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
